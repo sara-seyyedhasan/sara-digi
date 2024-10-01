@@ -1,0 +1,34 @@
+.tabligh {
+  width: 100%;
+  height: 167px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+  
+  div {
+    width: fit-content;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+
+    a {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      
+
+      img {
+        width: 1336px;
+        height: inherit;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        
+        border-radius: 15px;
+      }
+    }
+  }
+}

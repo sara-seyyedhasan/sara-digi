@@ -1,0 +1,109 @@
+@font-face {
+  font-family: digi;
+  src: url("../../font/IRANYekanWeb.eot");
+  src: url("../../font/IRANYekanWeb.ttf");
+  src: url("../../font/IRANYekanWeb.woff");
+  src: url("../../font/IRANYekanWeb.woff2");
+}
+:root {
+  --fontdigi: digi;
+}
+
+.login {
+  height: 100%;
+  height: 480px;
+  
+
+  .login-box {
+    width: 400px !important ;
+    height: 480px;
+    border: 1px solid lightgrey;
+    border-radius: 15px;
+    display: flex;
+    flex-flow: column;
+    padding: 20px;
+    padding-left: 34px;
+    padding-right: 34px;
+    margin: 100px auto;
+
+    box-sizing: border-box;
+
+    .logo {
+      width: 100px;
+      height: 67px;
+      display: block;
+      margin: 10px auto;
+
+      img {
+        width: inherit;
+        height: inherit;
+      }
+    }
+    .text {
+      display: flex;
+      flex-flow: row wrap;
+      column-gap: 10px;
+
+      p {
+        font-family: var(--fontdigi);
+        font-weight: bold;
+        font-size: 18px;
+      }
+      span {
+        width: 2.5px;
+        height: 19px;
+        background-color: black;
+        font-weight: bold;
+        margin-top: 19px;
+      }
+    }
+    .text2 {
+      color: rgb(79, 78, 78);
+      font-family: var(--fontdigi);
+      font-size: 13px;
+      padding-bottom: 15px;
+    }
+    .form {
+      width: 329px;
+      height: 47px;
+
+      display: flex;
+      align-items: center;
+      justify-content: center;
+
+      input[type="text"] {
+        width: 329px;
+        height: 45px;
+
+        border-radius: 10px;
+        outline: #fc5959;
+        border: 1px solid #fc5959;
+        font-family: var(--fontdigi);
+        padding-right: 45px;
+      }
+    }
+    .khali {
+      font-family: var(--fontdigi);
+      font-size: 13px;
+      color: #c02f2f;
+      padding-bottom: 20px;
+    }
+    .vorod {
+      border-radius: 10px;
+
+      background-color: #ef4056;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      p {
+        font-family: var(--fontdigi);
+        color: white;
+        font-size: 15px;
+      }
+    }
+    .roles {
+      font-family: var(--fontdigi);
+      font-size: 10.5px;
+    }
+  }
+}

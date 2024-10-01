@@ -1,0 +1,87 @@
+.banersh1 {
+  width: 100%;
+  height: 111px;
+  padding-top: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  .banersh1p {
+    width: 98%;
+    height: inherit;
+    background-color: #eceeee;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    padding-right: 40px;
+    .baner-right {
+      width: inherit;
+      display: flex;
+      align-items: center;
+      justify-content: flex-start;
+      flex-flow: row;
+      column-gap: 30px;
+      div {
+        height: 27px;
+        width: 111px;
+        background-color: #029a49;
+        border-radius: 15px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        span {
+          color: white;
+          font-family: var(--fontnazanin);
+          font-size: 18px;
+        }
+      }
+    }
+    .baner-left {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-flow: row;
+      column-gap: 5px;
+      padding-left: 30px;
+
+      img {
+        width: 58px;
+        height: 58px;
+        border-radius: 50%;
+      }
+      .darsad {
+        width: 34px;
+        height: 20px;
+        background-color: #d32f2f;
+        color: whitesmoke;
+        border-radius: 15px;
+        font-size: 14px;
+        text-align: center;
+        font-family: var(--fontnazanin);
+        flex-flow: row;
+      }
+      .more {
+        width: 144px;
+        height: 50px;
+        background-color: white;
+        border-radius: 30px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-flow: row;
+        p{
+            font-family: var(--fontnazanin);
+            font-size: 14px;
+            display: flex;
+            color: #029a49;
+            column-gap: 5px;
+            font-weight: bold;
+        }
+        img{
+            width: 20px;
+            height: 20px;
+        }
+      }
+    }
+  }
+}

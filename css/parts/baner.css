@@ -1,0 +1,29 @@
+.baner {
+  width: 100%;
+  height: fit-content;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  column-gap: 15px;
+
+  
+  .banerp {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 688;
+    height: 270px;
+
+    a {
+      width: inherit;
+      height: inherit;
+
+      img {
+        width: 666px;
+        height: 264px;
+        border-radius: 16px;
+        display: inline;
+      }
+    }
+  }
+}

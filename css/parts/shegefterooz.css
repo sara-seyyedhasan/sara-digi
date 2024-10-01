@@ -1,0 +1,150 @@
+.shegefterooz {
+  width: 100%;
+  height: 343px;
+  margin-top: 10px;
+
+  display: flex;
+  justify-content: center;
+  .shegefterooz-center {
+    width: 98%;
+    height: inherit;
+    background-color: #e2113b;
+    padding: 20px 5px;
+
+    padding-right: 20px;
+    border-radius: 15px;
+    display: flex;
+    justify-content: flex-start;
+    flex-flow: column;
+
+    .shegefterooztop {
+      font-family: var(--fontdigi);
+      justify-content: flex-start;
+      padding-bottom: 20px;
+      p {
+        color: white;
+      }
+      img {
+        width: 20 px;
+        height: 20px;
+      }
+    }
+
+    .swiper {
+      width: 100%;
+      height: 100%;
+      padding-left: 20px;
+      
+    }
+
+    .swiper-slide {
+      text-align: center;
+      font-size: 18px;
+      background: white;
+      border-radius: 10px;
+      display: flex;
+      flex-flow: row;
+      padding-right: 20px;
+      .pic {
+        width: 30%;
+        height: inherit;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-flow: column;
+        
+        a {
+          display: flex;
+          flex-flow: column;
+
+          .pishnahad {
+            width: 116px;
+            height: 14px;
+          }
+          img {
+            width: 200px;
+            height: 200px;
+          }
+        }
+      }
+      .div2 {
+        width: 70%;
+        height: inherit;
+        display: flex;
+        flex-flow: column;
+
+        padding: 10px;
+        padding-top: 60px;
+        padding-right: 20px;
+
+        .shegeftname {
+          font-family: var(--fontdigi);
+          display: flex;
+          padding-bottom: 20px;
+          font-size: 14px;
+          
+
+          align-items: center;
+        }
+        .color-rate {
+          display: flex;
+          justify-content: space-between;
+          font-family: var(--fontdigi);
+          padding-bottom: 20px;
+          p {
+            font-size: 13px;
+          }
+          .rate {
+            font-family: var(--fontnazanin);
+            font-size: 15px;
+          }
+        }
+        .darsad-gheymat {
+          width: 390px;
+          height: 33px;
+          display: flex;
+          flex-flow: row;
+          justify-content: space-between;
+
+          font-family: var(--fontnazanin);
+          .darsad {
+            width: 34px;
+            height: 20px;
+            background-color: #d32f2f;
+            color: whitesmoke;
+            border-radius: 15px;
+            font-size: 14px;
+            text-align: center;
+
+            flex-flow: row;
+          }
+          span {
+            display: flex;
+
+            justify-content: center;
+            .toman2 {
+              width: 20px;
+              height: 20px;
+            }
+          }
+        }
+        .gheymateghabl {
+          text-align: left;
+          font-family: var(--fontnazanin);
+          color: rgb(187, 181, 181);
+          display: block;
+          width: 100%;
+          padding-left: 30px;
+          font-size: 16px;
+          text-decoration: line-through;
+          padding-bottom: 20px;
+        }
+        .zaman {
+          text-align: left;
+          font-family: var(--fontnazanin);
+          color: red;
+        }
+      }
+    }
+  }
+}

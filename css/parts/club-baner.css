@@ -1,0 +1,70 @@
+.club-baner {
+  width: 100%;
+  height: 90px;
+  direction: ltr;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+
+  .cbaner {
+    width: 88%;
+    height: inherit;
+    background-color: #097b9e;
+    border-radius: 15px;
+    padding: 15px;
+    display: flex;
+    align-items: center;
+
+    align-items: center;
+    column-gap: 5px;
+    .cbanerp1 {
+      width: 258px;
+      height: 70px;
+      background-color: white;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      object-fit: cover;
+
+      border-radius: 5px;
+
+      a {
+        width: inherit;
+        height: inherit;
+        display: flex;
+
+        align-items: center;
+        flex-direction: row wrap;
+        text-decoration: none;
+        .imgs {
+          width: 168px;
+          height: 60px;
+        }
+        h1 {
+          font-size: 11px;
+          color: black;
+
+          font-family: var(--fontdigi);
+        }
+        .svgs {
+          width: 20px;
+          height: 20px;
+        }
+      }
+    }
+    .cbanerp2 {
+      width: inherit;
+      
+      a {
+        width: inherit;
+        display: flex;
+        justify-content: flex-end;
+        img {
+          
+        }
+      }
+    }
+  }
+}

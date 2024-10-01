@@ -1,0 +1,273 @@
+.hame {
+  width: 100%;
+  height: fit-content;
+  margin-top: 80px;
+  background-color: white;
+  .hamep {
+    width: 98%;
+    height: inherit;
+    p {
+      width: inherit;
+      font-size: 14px;
+      font-family: var(--fontdigi);
+
+      text-align: right;
+      padding-bottom: 10px;
+      font-size: 15px;
+      font-weight: bold;
+    }
+    .hametop {
+      display: flex;
+      font-family: var(--fontdigi);
+      flex-flow: row;
+
+      .filter {
+        width: 268px;
+        height: 520px;
+
+        display: flex;
+        position: sticky;
+        top: 0;
+        flex-flow: column;
+        row-gap: 15px;
+        border: 1px solid lightgrey;
+        border-radius: 10px;
+        padding: 20px;
+        font-family: var(--fontdigi);
+
+        p {
+          width: inherit;
+          display: flex;
+          font-size: 20px;
+          font-weight: bold;
+          justify-content: space-between;
+          color: rgb(60, 58, 58);
+          padding-bottom: 25px;
+        }
+        h1 {
+          display: flex;
+          color: rgb(60, 58, 58);
+          font-size: 14px;
+          flex-flow: row wrap;
+          text-align: center;
+
+          justify-content: flex-start;
+        }
+        img {
+          width: 18px;
+          height: 18px;
+        }
+        h2 {
+          display: flex;
+          color: #a6a3a3;
+
+          font-size: 12px;
+          flex-flow: row wrap;
+        }
+        .unset {
+          display: flex;
+          justify-content: space-between;
+          img {
+            width: 24px;
+            height: 24px;
+          }
+        }
+      }
+    }
+    .hame-left {
+      width: 100%;
+      padding-right: 20px;
+      padding-top: 20px;
+
+      .moratab {
+        width: 1200px;
+        display: flex;
+        column-gap: 5px;
+
+        justify-content: space-between;
+
+        flex-flow: row;
+        .moratabp1 {
+          height: inherit;
+          display: flex;
+
+          flex-flow: row;
+          column-gap: 15px;
+          font-family: var(--fontdigi);
+        }
+        .first {
+          width: inherit;
+          display: flex;
+
+          font-size: 13px;
+          color: #565656;
+          font-weight: normal;
+        }
+        p {
+          width: inherit;
+          display: flex;
+
+          font-size: 12px;
+          font-weight: normal;
+          color: #929395;
+          column-gap: 10px;
+
+          img {
+            width: 24px;
+            height: 24px;
+          }
+        }
+        .moratabp2 {
+          display: flex;
+
+          align-items: center;
+          justify-content: center;
+          p {
+            text-align: left;
+            font-family: var(--fontnazanin);
+            width: inherit;
+            display: flex;
+            text-align: center;
+            justify-content: center;
+            font-size: 14px;
+            font-weight: normal;
+            color: #929395;
+          }
+        }
+      }
+      .aghlam {
+        width: 1200px;
+        height: inherit;
+        padding-top: 20px;
+        border-bottom: 1px solid rgb(238, 234, 234);
+
+        display: flex;
+        .hamer1 {
+          height: 476px;
+          width: inherit;
+          display: flex;
+          column-gap: 5px;
+          .ghalam {
+            width: 290px;
+            display: flex;
+            flex-flow: column;
+          }
+          .hame-shegeft {
+            width: 290px;
+            display: flex;
+            flex-flow: row;
+            justify-content: center;
+
+            a {
+              height: inherit;
+              display: flex;
+
+              flex-flow: column;
+
+              .pishnahad {
+                width: 116px;
+                height: 14px;
+              }
+              img {
+                width: 240px;
+                height: 240px;
+              }
+            }
+          }
+          .div3 {
+            width: 290px;
+            display: flex;
+            flex-flow: column;
+            justify-content: center;
+            font-family: var(--fontdigi);
+            .name {
+              display: flex;
+              padding-bottom: 20px;
+              font-size: 20px;
+              color: #4b4a4a;
+
+              align-items: center;
+              p{
+                font-size: 12px;
+              }
+            }
+            .color-rate {
+              display: flex;
+              justify-content: space-between;
+
+              font-family: var(--fontdigi);
+              padding-bottom: 10px;
+              p {
+                display: flex;
+                align-items: center;
+                font-size: 10px;
+                img {
+                  width: 18px;
+                  height: 18px;
+                }
+              }
+              .ersal {
+                color: #929395;
+              }
+              .rate {
+                font-family: var(--fontnazanin);
+                font-size: 15px;
+                font-weight: normal;
+                
+              }
+            }
+            .darsad-gheymat {
+              width: inherit;
+              height: 33px;
+              display: flex;
+              flex-flow: row;
+              justify-content: space-between;
+
+              font-family: var(--fontnazanin);
+              .darsad {
+                width: 34px;
+                height: 20px;
+                background-color: #d32f2f;
+                color: whitesmoke;
+                border-radius: 15px;
+                font-size: 14px;
+                text-align: center;
+
+                flex-flow: row;
+              }
+              span {
+                display: flex;
+
+                justify-content: center;
+                .toman2 {
+                  width: 20px;
+                  height: 20px;
+                }
+              }
+            }
+            .gheymateghabl {
+              width: 290px;
+              display: flex;
+              direction: ltr;
+              font-family: var(--fontnazanin);
+              color: rgb(187, 181, 181);
+              font-size: 16px;
+              text-decoration: line-through;
+              padding-bottom: 20px;
+              padding-left: 20px;
+            }
+            .zaman {
+              width: 290px;
+              text-align: left;
+              font-family: var(--fontnazanin);
+              color: rgb(238, 63, 63);
+              padding-left: 5px;
+              font-size: 14px;
+              font-weight: bold;
+            }
+          }
+        }
+      }
+    }
+  }
+}

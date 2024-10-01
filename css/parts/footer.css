@@ -1,0 +1,309 @@
+.footer {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  footer {
+    width: 98%;
+    height: inherit;
+  }
+  .footer-logo {
+    width: 100%;
+    height: 40px;
+    flex-flow: row;
+    justify-content: space-between;
+    display: flex;
+
+    img {
+      width: 195px;
+      height: 30px;
+    }
+    a {
+      width: 138px;
+      height: 40px;
+      font-family: var(--fontdigi);
+      text-decoration: none;
+      color: grey;
+      border: 1px solid rgb(183, 181, 181);
+      display: flex;
+      font-size: 13px;
+      align-items: center;
+      justify-content: center;
+      font-weight: bold;
+      border-radius: 5px;
+      
+
+      .bala {
+        width: 24px;
+        height: 24px;
+        text-align: center;
+        justify-content: center;
+        transition-duration: 500ms;
+        
+      }
+    }
+  }
+  .ertebat {
+    width: inherit;
+    height: fit-content;
+    display: flex;
+    justify-content: start;
+    column-gap: 20px;
+    color: #3f4064;
+    padding-top: 10px;
+
+    p {
+      font-family: var(--fontnazanin);
+    }
+    span {
+      display: inline-block;
+      width: 1.5px;
+      height: 5px;
+      background-color: #3f4064;
+
+      padding-top: 20px;
+    }
+  }
+  .zemanat {
+    display: flex;
+    padding-top: 20px;
+    padding-bottom: 20px;
+
+    justify-content: space-evenly;
+    align-items: center;
+    a {
+      text-decoration: none;
+      font-family: var(--fontdigi);
+      display: flex;
+      justify-content: center;
+      flex-direction: column;
+      align-items: center;
+      color: #3f4064;
+      font-size: 12px;
+      img {
+        width: 56px;
+        height: 56px;
+      }
+    }
+  }
+  .customer {
+    display: flex;
+    flex-flow: row;
+    padding-top: 20px;
+    justify-content: space-between;
+    div {
+      display: flex;
+      flex-flow: column;
+      font-family: var(--fontdigi);
+      row-gap: 15px;
+      p {
+        color: #383838;
+        font-weight: bold;
+      }
+      a {
+        text-decoration: none;
+        color: #81858b;
+        font-size: 15px;
+      }
+    }
+    .shabake {
+      display: flex;
+      flex-flow: row;
+      column-gap: 35px;
+    }
+    .akhbar {
+      display: flex;
+      flex-flow: row;
+      column-gap: 10px;
+      input[type="text"] {
+        width: 262px;
+        height: 50px;
+        background-color: #f0f0f1;
+        border-radius: 6px;
+        outline: none;
+        border: none;
+        font-family: var(--fontdigi);
+        padding-right: 45px;
+        input [type="text"]::placeholder {
+          font-size: 10px;
+        }
+      }
+      p {
+        width: 55px;
+        height: 47px;
+        background-color: #bfbfbfd2;
+        border-radius: 5px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: white;
+      }
+    }
+  }
+  .app {
+    width: 100%;
+    height: 76px;
+    background-color: #2f3952;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    padding-right: 20px;
+    margin-top: 40px;
+    margin-bottom: 25px;
+
+    div {
+      width: inherit;
+      display: flex;
+      flex-flow: row;
+      align-items: center;
+
+      .dlapp {
+        width: inherit;
+        display: flex;
+
+        align-items: center;
+        img {
+          width: 42px;
+          height: 42px;
+          border-radius: 7px;
+        }
+        p {
+          font-family: var(--fontdigi);
+          color: white;
+          font-size: 23px;
+        }
+      }
+    }
+    .daryaft {
+      width: inherit;
+      justify-content: flex-end;
+      padding-left: 20px;
+
+      column-gap: 15px;
+
+      a {
+        display: flex;
+
+        column-gap: 10px;
+
+        align-items: center;
+        img {
+          justify-content: flex;
+        }
+      }
+      .bishtar {
+        width: 44px;
+        height: 44px;
+        background-color: #f0f0f1;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 10px;
+
+        img {
+          width: 40px;
+        }
+      }
+    }
+  }
+  .about {
+    width: 100%;
+    height: 225px;
+    padding-top: 50px;
+    border-top: 1px solid lightgray;
+    border-bottom: 1px solid lightgray;
+    display: flex;
+    align-items: center;
+    .tozih {
+      width: 65%;
+      height: inherit;
+      font-family: var(--fontdigi);
+
+      h1 {
+        font-size: 20px;
+        color: #4f4f4f;
+        margin-bottom: 10px;
+      }
+      p {
+        font-size: 12px;
+
+        display: -webkit-box;
+        -webkit-box-orient: vertical;
+        -webkit-line-clamp: 3;
+        overflow: hidden;
+        color: #383838;
+      }
+    }
+    .etemad {
+      width: 35%;
+      height: inherit;
+
+      display: flex;
+      justify-content: flex-end;
+      column-gap: 7px;
+
+      .etemadp {
+        width: 108px;
+        height: 108px;
+        border: 1px solid lightgray;
+        border-radius: 10px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        img {
+          width: 75px;
+          height: 75px;
+        }
+      }
+    }
+  }
+  .manba {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    p {
+      font-family: var(--fontdigi);
+      font-size: 12px;
+      color: #5f6062;
+    }
+  }
+  .digis {
+    width: 100%;
+    height: 143px;
+    background-color: #dfe1e6;
+    padding-left: 20px;
+    padding-right: 20px;
+    display: flex;
+    align-items: center;
+    .digisp {
+      width: inherit;
+      height: inherit;
+      display: flex;
+      justify-content: center;
+      flex-flow: column;
+      row-gap: 40px;
+      .digisp1 {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        img {
+          width: 80px;
+          height: 30px;
+        }
+      }
+      .digisp2 {
+        display: flex;
+        padding-right: 10px;
+        justify-content: space-between;
+        align-items: center;
+        img {
+          width: 100px;
+          height: 30px;
+        }
+      }
+    }
+  }
+}
